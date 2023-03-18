@@ -9,7 +9,8 @@ import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {// Declare private variables for the UI components
+class MainActivity : AppCompatActivity() {
+    // Declare private variables for the UI components
 private lateinit var items: ArrayList<String>
     private lateinit var itemsAdapter: ArrayAdapter<String>
     private lateinit var lvItems: ListView
